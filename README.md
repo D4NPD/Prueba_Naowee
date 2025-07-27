@@ -23,7 +23,7 @@ Requisitos
 - Pipenv o entorno virtual (recomendado)
 Instalación y ejecución
 1. Clonar el repositorio
-git clone https://github.com/tuusuario/tienda-deportiva.git
+git clone https://github.com/D4NPD/Prueba_Naowee.git
 cd tienda-deportiva
 2. Configurar la base de datos
 - Crea la base de datos en MySQL.
