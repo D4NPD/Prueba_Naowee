@@ -41,6 +41,10 @@ npm install
 npm run dev
 Rutas protegidas y roles
 - Autenticación mediante tokens JWT.
+-CREDENCIALES DE AUTENTICACION:
+ admin@test.com : admin123
+ test@test.com : test
+ test2@test.com : test2
 - Validación por roles: user y admin.
 Navegación principal
 /login Inicio de sesión Público
@@ -63,4 +67,4 @@ Funcionalidades completas
 - Panel de administración (categorías, productos, pedidos)
 - Arquitectura de microservicios
 Autor
-Desarrollado por Daniel Pizarro como parte de la prueba técnica para Naowee S.A
+Desarrollado por Daniel Pizarro De Moya como parte de la prueba técnica para Naowee S.A
