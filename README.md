@@ -43,7 +43,9 @@ Rutas protegidas y roles
 - Autenticación mediante tokens JWT.
 -CREDENCIALES DE AUTENTICACION:
  admin@test.com : admin123
+
  test@test.com : test
+
  test2@test.com : test2
 - Validación por roles: user y admin.
 Navegación principal
