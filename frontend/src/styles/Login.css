@@ -1,0 +1,89 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light gray background */
+  font-family: 'Arial', sans-serif; /* Modern, clean font */
+}
+
+.login-form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px; /* Max width for better control on larger screens */
+  box-sizing: border-box; /* Include padding in width calculation */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between elements */
+}
+
+.login-title {
+  text-align: center;
+  color: #333333; /* Darker gray for title */
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #e0e0e0; /* Light border */
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555555;
+  transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+.login-input::placeholder {
+  color: #aaaaaa; /* Lighter placeholder text */
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1); /* Subtle focus glow */
+}
+
+.login-error {
+  color: #e74c3c; /* Red for error messages */
+  text-align: center;
+  font-size: 14px;
+  margin-top: -10px; /* Reduce space above error */
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #007bff; /* Primary blue button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.login-button:active {
+  background-color: #004085; /* Even darker on active/click */
+  transform: translateY(0);
+}
+
+/* Optional: Add some responsiveness */
+@media (max-width: 500px) {
+  .login-form {
+    margin: 20px;
+    padding: 30px;
+  }
+}
