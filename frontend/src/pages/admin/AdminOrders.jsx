@@ -13,7 +13,7 @@ const AdminOrders = () => {
       const res = await apiOrder.get("/get_all_orders", {
         headers: { Authorization: `Bearer ${token}` },
       });
-      setPedidos(res.data);
+      setPedidos(Array.isArray(res.data) ? res.data : []);
     } catch (err) {
       console.error("Error al obtener pedidos:", err);
     }

@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/login";
 import Products from "./pages/Products";
 import Navbar from "./components/Navbar";
@@ -16,6 +16,9 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
+        <Route path="/" element={
+          <Navigate to='/products'/>
+        } />
         <Route path="/login" element={<Login />} />
         <Route
           path="/products"
