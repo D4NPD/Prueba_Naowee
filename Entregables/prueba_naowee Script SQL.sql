@@ -68,3 +68,6 @@ CREATE TABLE IF NOT EXISTS Order_Product (
     FOREIGN KEY (product_id) REFERENCES Products(product_id)
 );
 
+INSERT INTO users (name, email, password, rol) VALUES ('admin', 'admin@test.com', 'pbkdf2:sha256:600000$gGrGH111ApbDhdaK$2727854757efe7dc0123c7fbdfc83a862e1c33ff9951986ca47e242c071b532e',2)
+INSERT INTO users (name, email, password, rol) VALUES ('test', 'test@test.com', 'pbkdf2:sha256:600000$lQcocU3GUzPLongl$3cf66aaf7d075c75749695be6f75df4aa13db23318a07c3bc3a94685c1ca4888',1)
+INSERT INTO users (name, email, password, rol) VALUES ('test2', 'test2@test.com', 'pbkdf2:sha256:600000$AQhb1AZaxrk0A3ey$aeaac7e8f2de82d6c3c4edcc7a82c33f723d682680b7ce62adddb90a0346fdf9',1)
